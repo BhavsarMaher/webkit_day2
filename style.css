@@ -1,11 +1,47 @@
 html, body {
     height: 100%;
     box-sizing: border-box;
+    font-family: "Roboto";
+    font-size: 14px;
 }
 
 *, *:before, *:after {
     box-sizing: inherit;
 }
 body{
-  background-image: url("sg.jpg");
+  background-image: url("zx.jpg");
+background-repeat: no-repeat;
+background-size: cover;}
+.main{
+  width: 500px;
+  margin: auto;
+
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+.logo{
+  font-size: 50px;
+  color: red;
+  margin-bottom: 10px;
+  margin-top: 0;
+
+}
+.tagline{
+  font-size: 24px;
+  color: white;
+
+}
+.button{
+  background-color: blueviolet;
+  color:white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.button:hover{
+background: white;
+color: blueviolet;
 }
